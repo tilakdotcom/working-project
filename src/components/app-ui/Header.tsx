@@ -7,13 +7,9 @@ import { MobileMenu } from "./MobileMenu";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full h-[70px] flex items-center justify-between shadow-sm px-4 md:px-7 bg-opacity-80 backdrop-blur-md  overflow-hidden transform duration-500 bg-white/60">
-      <div className="overflow-hidden">
-        <Link to="/">
-        <img
-          src={logo}
-          alt="logo"
-          className="h-52"
-        />
+      <div className=" overflow-hidden p-2 rounded-md ">
+        <Link to="/" className="block">
+          <img src={logo} alt="Logo" className="w-full h-auto object-cover" />
         </Link>
       </div>
 
