@@ -27,7 +27,7 @@ export default function HeroSection() {
           >
             <p className="uppercase relative text-gold-600 ">
               <span className="ml-5 lg:hidden" />
-              Wedding Planning & Design
+              Design, Durability & Safety
               <span className="mr-5" />
               <BottomLine className="h-[1px] lg:h-0.5" visible={visible} />
             </p>
@@ -35,7 +35,7 @@ export default function HeroSection() {
 
           <AnimatedDiv visible={visible} className="text-center lg:text-start">
             <Heading className="lg:text-7xl tracking-wide font-[600] md:text-5xl">
-              Your Dream Wedding,{" "}
+              Your Wiring Integrity,{" "}
               <GradientText
                 className="lg:text-7xl md:text-5xl"
                 children="Our Expertise"
@@ -45,11 +45,11 @@ export default function HeroSection() {
 
           <AnimatedDiv
             visible={visible}
-            className="delay-200 text-sm sm:text-[17px] tracking-wide text-gray-500 text-center lg:text-start "
+            className="delay-200 text-sm sm:text-[17px] tracking-wide text-gray-500 text-center lg:text-start lg:px-3"
           >
-            Let us create the perfect celebration of your love story. From
-            intimate gatherings to grand celebrations, we craft unforgettable
-            moments that reflect your unique journey.
+            Protect your connections with confidence. From industrial sites to
+            extreme environments, we deliver cable glands that ensure safety,
+            durability, and performance.
           </AnimatedDiv>
 
           <AnimatedDiv
@@ -58,7 +58,7 @@ export default function HeroSection() {
           >
             <Link to={"/contact"}>
               <CustomButtonWrapper className="flex items-center gap-x-2   bg-gradient-to-tr from-gold font-medium text-white to-gold-700  md:px-6 md:py-1.5 transition-transform hover:translate-x-1">
-                Book Your Consultation
+                Expert guidance
                 <FaArrowRightLong className="text-white" fill="white" />
               </CustomButtonWrapper>
             </Link>
@@ -88,7 +88,7 @@ export default function HeroSection() {
               <div className="text-sm lg:text-base font-medium ">
                 Trusted by
                 <Heading className="lg:text-3xl md:text-3xl ">
-                  500+ Couples
+                  500+ Customers
                 </Heading>
               </div>
             </AnimatedDiv>
