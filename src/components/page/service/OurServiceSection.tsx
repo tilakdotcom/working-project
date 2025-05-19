@@ -30,16 +30,15 @@ export default function OurServiceSection() {
       <CommonSection className="mx-auto pt-0 py-8 lg:px-16  lg:py-16 justify-center items-center">
         <div className=" bg-gradient-to-l space-y-5 sm:space-y-6 max-w-7xl  flex flex-col justify-center items-center from-cream-200 py-12 px-6 to-cream-200 rounded-2xl">
           <Heading className="font-semibold md:text-3xl text-2xl sm:text-2xl text-center">
-            Ready to Begin Your Wedding Journey?
+           Ready to Find the Perfect Cable Gland Solution?
           </Heading>
 
           <p className="text-base sm:text-lg tracking-wide text-gray-500 font-normal text-center max-w-2xl">
-            Let's create a celebration that reflects your unique love story and
-            exceeds your expectations.
+            Let’s engineer a cable gland solution that meets your exact requirements and exceeds your expectations.
           </p>
           <Link to={"/contact"}>
             <CustomButtonWrapper className="  bg-gold hover:bg-gold-600 text-white">
-              Book Your Free Consultation
+              Book Free Cable Gland Consultation 
             </CustomButtonWrapper>
           </Link>
         </div>

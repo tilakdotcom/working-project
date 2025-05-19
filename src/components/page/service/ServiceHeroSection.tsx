@@ -9,19 +9,18 @@ export default function ServiceHeroSection() {
       <CommonSection className=" flex  flex-col bg-gradient-to-b from-cream-50 to-gray-200 space-y-6 sm:space-y-8 max-w-7xl mx-auto pt-0 py-8 lg:px-16">
         <div className="text-center ">
           <Heading className="lg:text-5xl tracking-normal font-bold md:text-5xl">
-            Our Wedding{" "}
+            Our Cable Gland{" "}
             <GradientText
               className="lg:text-5xl md:text-4xl text-3xl"
-              children="Planning"
+              children="Solutions"
             />{" "}
-            Services
+            & Services
           </Heading>
         </div>
 
         <div className=" text-sm sm:text-[17px] tracking-wide flex justify-center -mt-3">
           <p className="text-gray-500 text-center sm:max-w-2xl ">
-            From intimate gatherings to grand celebrations, we offer customized
-            planning services to bring your wedding vision to life.
+           From compact enclosures to large-scale industrial setups, we offer customized cable gland solutions to ensure reliable, secure, and efficient cable management.
           </p>
         </div>
 

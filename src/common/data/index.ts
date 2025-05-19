@@ -176,48 +176,48 @@ export const serviceCardData = [
     icon: LuCalendar,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Venue Selection",
+    title: "Product Selection",
     decription:
-      "Personalized venue recommendations based on your vision, budget, and guest count.",
+      "Expert guidance to help you choose the right type of cable gland based on application, material, and environment.",
   },
   {
     icon: LuSparkles,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Design & Styling",
+    title: "Design & Customization",
     decription:
-      "Creation of a cohesive design concept including colors, florals, lighting, and décor.",
+      "Tailor-made cable gland solutions with custom sizes, materials, and IP ratings for your specific needs.",
   },
   {
     icon: MdAccessTime,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Vendor Management",
+    title: "Logistics & Delivery",
     decription:
-      "Coordination with your chosen vendors to ensure seamless execution.",
+      "Efficient supply chain management to ensure timely delivery of cable glands worldwide.",
   },
   {
     icon: IoMdHeartEmpty,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Guest Experience",
+    title: "Technical Support",
     decription:
-      "Creative elements to enhance your guests' experience, from welcome bags to farewell brunches.",
+      "End-to-end support including installation guidance, compatibility checks, and troubleshooting.",
   },
   {
     icon: LuStar,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Destination Weddings",
+    title: "Industry Compliance",
     decription:
-      "Specialized planning for weddings outside your home location, including travel logistics.",
+      "Products meet key global standards such as ATEX, IECEx, and IP ratings to ensure operational safety and performance.",
   },
   {
     icon: LuCalendar,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Wedding Weekend",
+    title: "Project Solutions",
     decription:
-      "Planning of additional events such as welcome parties, rehearsal dinners, and post-wedding brunches.",
+      "Comprehensive cable management planning for large-scale industrial, marine, or hazardous area projects.",
   },
 ];
