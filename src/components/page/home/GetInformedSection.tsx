@@ -47,7 +47,7 @@ export default function GetInformedSection() {
           className="text-sm sm:text-[17px] tracking-wide flex justify-center"
         >
           <p className="text-gray-500 text-center sm:max-w-2xl ">
-            Everything you need to know about our wedding planning services.
+          Everything you need to know about our cable gland solutions.
           </p>
         </MotionDiv>
 
@@ -75,7 +75,7 @@ export default function GetInformedSection() {
               <div className="lg:text-lg text-base font-medium text-center md:text-start">
                 Still have questions?
                 <div className="text-[13px] sm:text-sm tracking-wide text-gray-500 font-normal text-center md:text-start">
-                  We're here to help you plan your perfect day.
+                  We're here to help you find the perfect cable gland solution.
                 </div>
               </div>
             </div>

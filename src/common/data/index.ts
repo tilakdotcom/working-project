@@ -13,110 +13,113 @@ import {
 import { TbHeartHandshake } from "react-icons/tb";
 import { MdAccessTime } from "react-icons/md";
 
-export const advantageDLuUsersata = [
+export const advantageData = [
   {
     icon: IoMdHeartEmpty,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Tailored Wedding Planning",
+    title: "Precision Engineering",
     decription:
-      "Every love story is unique. We create personalized experiences that reflect your style and vision.",
+      "Designed with accuracy to ensure secure cable entry and long-lasting performance in all environments.",
   },
   {
     icon: LuUsers,
     iconColor: "#2563eb",
     spanColor: "#eff6ff",
-    title: "Experienced Team",
+    title: "Expert Team",
     decription:
-      "Our seasoned professionals bring years of expertise to make your special day perfect.",
+      "Our specialists bring years of technical know-how to deliver reliable cable gland solutions.",
   },
   {
     icon: LuSparkles,
     iconColor: "#d97706",
     spanColor: "#fffbeb",
-    title: "End-to-End Services",
+    title: "Complete Solutions",
     decription:
-      "From venue selection to the last dance, we handle every detail with precision and care.",
+      "From selection to installation, we provide end-to-end support tailored to your application.",
   },
   {
     icon: LuAward,
     iconColor: "#059669",
     spanColor: "#ecfdf5",
-    title: "Trusted Vendors",
+    title: "Certified Quality",
     decription:
-      "Access our network of premium vendors, carefully selected to deliver excellence.",
+      "Partner with trusted suppliers offering certified cable glands that meet global safety standards.",
   },
 ];
+
 
 export const planningCardData = [
   {
     icon: LuCalendar,
     iconColor: "#e11d48",
     spanColor: "#fff2f3",
-    title: "Consultation",
+    title: "Initial Consultation",
     decription:
-      "We begin with a personal consultation to understand your vision, preferences, and budget for the perfect wedding day.",
+      "We begin by understanding your cable management requirements, application type, and environmental factors.",
   },
   {
     icon: LuFileSearch,
     iconColor: "#2563eb",
     spanColor: "#eff6ff",
-    title: "Planning & Design",
+    title: "Product Selection & Design",
     decription:
-      "Our team crafts a tailored wedding plan with curated vendor recommendations, timeline, and design concepts.",
+      "Our experts help you choose the ideal cable gland type with proper IP rating, material, and sizing for your setup.",
   },
   {
     icon: TbHeartHandshake,
     iconColor: "#9333ea",
     spanColor: "#faf5ff",
-    title: "Vendor Coordination",
+    title: "Supply Coordination",
     decription:
-      "We handle all communication and coordination with vendors to ensure every detail aligns with your vision.",
+      "We coordinate with trusted suppliers and ensure timely delivery of certified cable glands and accessories.",
   },
   {
     icon: LuSparkles,
     iconColor: "#d97706",
     spanColor: "#fffbeb",
-    title: "Final Details",
+    title: "Pre-Installation Review",
     decription:
-      "One month before your wedding, we finalize all details, confirm vendors, and create a comprehensive timeline.",
+      "Before installation, we double-check specifications, compatibility, and application guidelines for flawless integration.",
   },
   {
     icon: LuAward,
     iconColor: "#059669",
     spanColor: "#ecfdf5",
-    title: "Wedding Day",
+    title: "Installation & Support",
     decription:
-      "Relax and enjoy your special day while our team manages every aspect of your celebration from start to finish.",
+      "Our team ensures secure gland installation and provides post-installation support for long-term performance.",
   },
 ];
 
+
 export const faqData = [
   {
-    ques: "How far in advance should I book your wedding planning services? ",
-    ans: "We recommend booking our services 9-12 months before your wedding date for full planning. However, we also offer partial planning and month-of coordination that can be booked 4-6 months in advance, subject to availability.",
+    ques: "What is a cable gland and why is it important?",
+    ans: "A cable gland is a device designed to securely attach and seal the end of an electrical cable to equipment. It ensures protection against dust, moisture, and mechanical stress, maintaining the integrity and safety of the installation.",
   },
   {
-    ques: "What types of wedding planning packages do you offer?",
-    ans: "We offer three main packages: Full Planning & Design, Partial Planning, and Month-of Coordination. Each can be customized to meet your specific needs and budget. We also provide à la carte services for couples who need assistance with specific aspects of their wedding.",
+    ques: "Which types of cable glands do you offer?",
+    ans: "We offer a wide range of cable glands including brass, stainless steel, plastic (nylon), and explosion-proof variants. Each type is suitable for specific environments and cable types, ensuring secure and compliant connections.",
   },
   {
-    ques: "Do you work with a specific style or type of wedding?",
-    ans: "We pride ourselves on versatility and have experience with various wedding styles from intimate garden ceremonies to grand ballroom receptions. Our approach is to bring your unique vision to life regardless of style, theme, or size.",
+    ques: "How do I choose the right cable gland for my application?",
+    ans: "Choosing the right cable gland depends on factors like cable diameter, environmental conditions, ingress protection (IP) rating, and material compatibility. Our team can assist you in selecting the ideal gland for your application.",
   },
   {
-    ques: "How are your fees structured? ",
-    ans: "Our full-service planning packages start at a base fee, with the final cost depending on your wedding's complexity, guest count, and specific requirements. We provide a detailed proposal after our initial consultation. We also offer payment plans to help manage your wedding budget.",
+    ques: "Are your cable glands compliant with international standards?",
+    ans: "Yes, our cable glands meet global standards such as IP68, ATEX, IECEx, and RoHS compliance, ensuring safe and reliable performance across various industries including oil & gas, manufacturing, and telecom.",
   },
   {
-    ques: "Can you work with our budget?  ",
-    ans: "Yes! We work with various budgets and help you prioritize elements that matter most to you. Our experience allows us to suggest creative solutions to maximize your budget while creating a beautiful celebration.",
+    ques: "Do you offer custom cable gland solutions?",
+    ans: "Absolutely. We provide customized cable gland solutions tailored to unique specifications and industry requirements. Contact our team with your needs, and we'll develop a solution that fits.",
   },
   {
-    ques: "Will you be present on our wedding day?",
-    ans: "Absolutely! Your dedicated planner and assistant(s) will be on-site throughout your wedding day, from vendor arrivals through the end of the reception, ensuring every detail is executed perfectly.",
+    ques: "What sizes are available for your cable glands?",
+    ans: "Our cable glands come in a wide range of sizes to accommodate different cable diameters, from small instrumentation cables to large power cables. Sizing charts and technical data sheets are available upon request.",
   },
 ];
+
 
 export const HeaderLink = [
   { name: "Home", href: "/" },
@@ -125,11 +128,12 @@ export const HeaderLink = [
   { name: "Contact", href: "/contact" },
 ];
 export const ServicesLinks = [
-  "  Full Planning",
-  "Partial Planning",
-  "Day-of Coordination",
-  "Destination Weddings",
+  "Brass Cable Glands",
+  "Stainless Steel Cable Glands",
+  "Plastic (Nylon) Cable Glands",
+  "Explosion-Proof Cable Glands",
 ];
+
 
 export const getInTouchData = [
   {

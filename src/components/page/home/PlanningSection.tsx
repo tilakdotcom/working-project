@@ -25,8 +25,7 @@ export default function PlanningSection() {
           className=" text-sm sm:text-[17px] tracking-wide flex justify-center"
         >
           <p className="text-gray-500 text-center sm:max-w-2xl ">
-            From the first consultation to your wedding day, our streamlined
-            process ensures a stress-free experience.
+           From initial consultation to final installation, our streamlined process ensures reliable cable gland integration with zero stress.
           </p>
         </MotionDiv>
 

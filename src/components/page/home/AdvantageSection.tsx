@@ -1,4 +1,4 @@
-import { advantageDLuUsersata } from "@/common/data";
+import { advantageData } from "@/common/data";
 import AdvantageCard from "@/components/card/AdvantageCard";
 import { BottomLine, MotionDiv } from "@/components/common/Animated";
 import CommonSection from "@/components/common/CommonSection";
@@ -40,8 +40,8 @@ export default function AdvantageSection() {
           className="text-sm sm:text-[17px] tracking-wide flex justify-center"
         >
           <p className="text-gray-500 text-center sm:max-w-2xl ">
-            We bring your wedding dreams to life with expertise, creativity, and
-            dedication.
+            We power your projects with precision, reliability, and innovation —
+            delivering cable glands engineered for performance.
           </p>
         </MotionDiv>
 
@@ -50,8 +50,8 @@ export default function AdvantageSection() {
         </MotionDiv>
 
         <MotionDiv className=" grid grid-cols-1 gap-3  sm:grid-cols-2 lg:grid-cols-4 sm:mt-16 mt-8">
-          {advantageDLuUsersata.map((item, i) => (
-            <MotionDiv initialX={10} key={i} delay={i* 0.5}  className="flex">
+          {advantageData.map((item, i) => (
+            <MotionDiv initialX={10} key={i} delay={i * 0.5} className="flex">
               <AdvantageCard
                 Icon={item.icon}
                 iconColor={item.iconColor}
