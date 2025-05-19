@@ -133,7 +133,7 @@ export const ServicesLinks = [
 
 export const getInTouchData = [
   {
-    text: "Jaipur, Rajasthan",
+    text: "Delhi, New Delhi",
     Icon: IoLocationOutline,
     belong: "Our Location",
   },

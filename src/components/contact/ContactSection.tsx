@@ -27,8 +27,9 @@ export default function ContactSection() {
         className="text-sm sm:text-[17px] tracking-wide flex justify-center"
       >
         <p className="text-gray-500 text-center sm:max-w-2xl ">
-          Have questions about our wedding planning services? We'd love to hear
-          from you and help make your special day perfect.
+          Have questions about our cable gland solutions? We'd love to hear from
+          you and help ensure your installations are secure, efficient, and
+          built to last.
         </p>
       </MotionDiv>
 
@@ -73,9 +74,9 @@ export default function ContactSection() {
             </div>
 
             <div className="text-sm px-3 sm:text-[15px] tracking-wide text-gray-500 font-normal text-start">
-              We'll respond to your inquiry within 24 hours. Your wedding
-              journey matters to us, and we're committed to making every step of
-              the planning process seamless and enjoyable.
+              We’ll respond to your inquiry within 24 hours. Your project
+              matters to us, and we’re committed to making every step of the
+              cable management process seamless, efficient, and reliable.
             </div>
           </CardWrapper>
         </MotionDiv>

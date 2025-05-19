@@ -14,13 +14,14 @@ export default function Footer() {
           {/* first */}
           <MotionDiv initialY={40} className="flex flex-col gap-y-3 ">
             <div className="">
-              <img src={logo} alt="logo" className="w-52 object-cover" />
+              <img src={logo} alt="logo" className=" object-cover" />
             </div>
 
             <p className="text-sm md:text-sm tracking-wide text-gray-500  lg:text-start py-1.5">
-              Let us create the perfect celebration of your love story. From
-              intimate gatherings to grand celebrations, we make your dream
-              wedding a reality.
+              Delivering Precision and Protection with Every Connection. From
+              compact enclosures to industrial installations, we provide
+              reliable cable gland solutions tailored to your exact
+              requirements.
             </p>
 
             <div className="flex px-4 gap-x-5 text-xl md:text-3xl py-3 md:py-4 text-gray-500 hover:text-gray-600">
@@ -98,7 +99,7 @@ export default function Footer() {
         </div>
 
         <div className="delay-200 text-xs sm:text-sm tracking-wide text-gray-500 text-center lg:text-start h-16">
-          © {new Date().getFullYear()} BloomKnot Wedding Planning. All rights
+          © {new Date().getFullYear()} VE Cable Gland Solutions. All rights
           reserved.
         </div>
       </CommonSection>
