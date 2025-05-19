@@ -1,4 +1,4 @@
-import { IoMdHeartEmpty } from "react-icons/io";
+import { IoLogoWhatsapp, IoMdHeartEmpty } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import {
   LuSparkles,
@@ -9,6 +9,7 @@ import {
   LuPhone,
   LuMail,
   LuStar,
+  LuPhoneCall,
 } from "react-icons/lu";
 import { TbHeartHandshake } from "react-icons/tb";
 import { MdAccessTime } from "react-icons/md";
@@ -219,5 +220,23 @@ export const serviceCardData = [
     title: "Project Solutions",
     decription:
       "Comprehensive cable management planning for large-scale industrial, marine, or hazardous area projects.",
+  },
+];
+
+// contactData.ts
+export const contactData = [
+  {
+    id: 'call',
+    label: 'Call Us',
+    href: 'tel:+911234567890',
+    icon: LuPhoneCall,
+    color: 'from-yellow-500 to-yellow-400',
+  },
+  {
+    id: 'whatsapp',
+    label: 'WhatsApp',
+    href: 'https://wa.me/911234567890',
+    icon: IoLogoWhatsapp,
+    color: 'from-green-500 to-green-400',
   },
 ];

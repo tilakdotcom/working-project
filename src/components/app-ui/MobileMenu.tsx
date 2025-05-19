@@ -8,9 +8,8 @@ import {
 } from "@/components/ui/sheet";
 import { LuMenu, LuChevronRight } from "react-icons/lu";
 import { TbHeartHandshake } from "react-icons/tb";
-import { CustomButtonWrapper } from "../common/CustomButtons";
 import { Link } from "react-router-dom";
-import { HeaderLink } from "@/common/data";
+import { contactData, HeaderLink } from "@/common/data";
 import { MotionDiv } from "../common/Animated";
 
 export function MobileMenu() {
@@ -60,18 +59,22 @@ export function MobileMenu() {
             delay={1}
             className=" flex-col flex gap-y-2 "
           >
-            <SheetClose asChild>
-              <CustomButtonWrapper
-                className="justify-center w-full font-medium"
-                children={"Sign up"}
-              />
-            </SheetClose>
-            <SheetClose asChild>
-              <CustomButtonWrapper
-                className="justify-center w-full font-medium"
-                children={"Login"}
-              />
-            </SheetClose>
+            {contactData.map(({ id, label, href, icon: Icon, color }) => (
+              <SheetClose key={id} asChild>
+                <Link
+                  key={id}
+                  to={href}
+                  target={href.startsWith("http") ? "_blank" : undefined}
+                  rel={
+                    href.startsWith("http") ? "noopener noreferrer" : undefined
+                  }
+                  className={`flex items-center gap-2 bg-gradient-to-r ${color} text-white px-5 py-2 rounded-2xl shadow-md hover:scale-105 transition-transform duration-300 flex justify-center`}
+                >
+                  <Icon size={20} />
+                  <span>{label}</span>
+                </Link>
+              </SheetClose>
+            ))}
           </MotionDiv>
         </div>
       </SheetContent>
