@@ -139,12 +139,12 @@ export const getInTouchData = [
     belong: "Our Location",
   },
   {
-    text: "+91 8306919764",
+    text: "+91 9310467821",
     Icon: LuPhone,
     belong: "Phone Number",
   },
   {
-    text: "mohatosh@bloomknot.in",
+    text: "tilak@anshu.in",
     Icon: LuMail,
     belong: "Email Address",
   },
