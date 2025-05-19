@@ -10,7 +10,7 @@ export default function Container({ children, className }: ContainerProps) {
   return (
     <div
       className={cn(
-        "relative w-full max-w-[92vw] md:max-w-[90vw] lg:max-w-[85vw] xl:max-w-[1280px] mx-auto py-10 px-1 ",
+        "relative w-full max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto py-10",
         className
       )}
     >
