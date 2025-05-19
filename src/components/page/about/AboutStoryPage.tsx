@@ -12,22 +12,21 @@ export default function AboutStorySection() {
             <LuSparkles className="text-gold-600 size-6" />
             Our Story
           </Heading>
-
-          <p className="text-gray-500  sm:max-w-2xl ">
-            Founded in 2020, BloomKnot emerged from a passion for creating
-            magical moments. Our journey began with a simple belief: every
-            couple deserves a wedding day that perfectly reflects their unique
-            love story.
+          <p className="text-gray-500 sm:max-w-2xl">
+            Founded in 2020,VE began with a mission to deliver
+            durable, high-performance cable glands that meet the evolving needs
+            of modern industries.
           </p>
-          <p className="text-gray-500  sm:max-w-2xl ">
-            What started as a small team of dedicated planners has blossomed
-            into a full-service wedding planning company, orchestrating
-            breathtaking celebrations across the country.
+          <p className="text-gray-500 sm:max-w-2xl">
+            What started as a small unit of passionate engineers and product
+            specialists has grown into a trusted name in cable management
+            solutions, serving clients across electrical, telecom, and
+            industrial sectors.
           </p>
-          <p className="text-gray-500  sm:max-w-2xl ">
-            Our name "BloomKnot" represents the beautiful union of two lives
-            coming together, like flowers blooming and intertwining in perfect
-            harmony.
+          <p className="text-gray-500 sm:max-w-2xl">
+            The name VE symbolizes strength, precision, and
+            connectivity—values we bring to every product we manufacture and
+            every project we support.
           </p>
         </div>
 

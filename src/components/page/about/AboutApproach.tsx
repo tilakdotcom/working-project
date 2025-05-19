@@ -27,12 +27,12 @@ export default function AboutApproach() {
       <CommonSection className="mx-auto pt-0 py-8 lg:px-16  lg:py-16 justify-center items-center">
         <div className=" bg-gradient-to-l space-y-5 sm:space-y-6 max-w-7xl  flex flex-col justify-center items-center from-cream-200 py-12 to-cream-200 rounded-2xl px-6">
           <Heading className="font-semibold md:text-3xl text-2xl sm:text-3xl text-center">
-            Ready to Plan Your Dream Wedding?
+            Ready to Secure Your Cables with Confidence?
           </Heading>
 
           <p className="text-base sm:text-lg tracking-wide text-gray-500 font-normal text-center max-w-2xl">
-            Let's create a celebration that reflects your unique love story and
-            exceeds your expectations.
+            Let's create a secure, reliable solution that meets your unique
+            connection needs and exceeds expectations."
           </p>
 
           <Link to={"/contact"}>

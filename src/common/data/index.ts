@@ -48,7 +48,6 @@ export const advantageData = [
   },
 ];
 
-
 export const planningCardData = [
   {
     icon: LuCalendar,
@@ -92,7 +91,6 @@ export const planningCardData = [
   },
 ];
 
-
 export const faqData = [
   {
     ques: "What is a cable gland and why is it important?",
@@ -120,7 +118,6 @@ export const faqData = [
   },
 ];
 
-
 export const HeaderLink = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -133,7 +130,6 @@ export const ServicesLinks = [
   "Plastic (Nylon) Cable Glands",
   "Explosion-Proof Cable Glands",
 ];
-
 
 export const getInTouchData = [
   {
@@ -157,22 +153,21 @@ export const getInTouchData = [
     belong: "Business Hours",
   },
 ];
-
 export const ourApproachData = [
   {
-    title: "Personalized Planning",
+    title: "Precision Engineering",
     description:
-      "We believe no two weddings should be the same. We take time to understand your vision, preferences, and story to create a celebration that's uniquely yours.",
+      "We design cable glands with meticulous attention to technical standards, ensuring reliable performance across a variety of demanding applications.",
   },
   {
-    title: "Attention to Detail",
+    title: "Quality Assurance",
     description:
-      "From the grand design concepts to the tiniest embellishments, we ensure every element of your wedding is perfect and cohesive.",
+      "Each product undergoes rigorous testing and quality checks to meet international safety and durability standards for optimal cable protection.",
   },
   {
-    title: "Stress-Free Experience",
+    title: "Customer-Centric Solutions",
     description:
-      "We handle the logistics, coordination, and problem-solving, allowing you to focus on enjoying the journey to your special day.",
+      "We collaborate closely with clients to deliver tailored cable gland solutions that align with their unique operational requirements and industry challenges.",
   },
 ];
 
