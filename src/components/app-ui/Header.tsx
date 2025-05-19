@@ -1,8 +1,8 @@
 import { logo } from "@/assets";
 import { Link } from "react-router-dom";
-import { CustomButtonWrapper } from "../common/CustomButtons";
 import { HeaderLink } from "@/common/data";
 import { MobileMenu } from "./MobileMenu";
+import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -30,8 +30,25 @@ export default function Header() {
       </div>
 
       <div className=" lg:flex hidden gap-x-3">
-        <CustomButtonWrapper children={"Sign up"} />
-        <CustomButtonWrapper children={"Login"} />
+        {/* Phone Button */}
+        <Link
+          to="tel:+919999999999"
+          className="group flex justify-center items-center w-[48px] h-[48px] rounded-full bg-[#30C04F] hover:bg-[#2bac47] shadow-md hover:shadow-lg transition-all duration-300"
+          aria-label="Call Us"
+        >
+          <FaPhoneAlt  className="text-white text-2xl group-hover:scale-110 transition-transform duration-300" />
+        </Link>
+
+        {/* WhatsApp Button */}
+        <Link
+          to="https://wa.me/919999999999"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex justify-center items-center w-[48px] h-[48px] rounded-full bg-[#25D366] hover:bg-[#1ebc57] shadow-md hover:shadow-lg transition-all duration-300"
+          aria-label="WhatsApp"
+        >
+          <FaWhatsapp className="text-white text-2xl group-hover:scale-110 transition-transform duration-300" />
+        </Link>
       </div>
 
       <div className="lg:hidden ">
